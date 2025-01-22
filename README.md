@@ -85,6 +85,7 @@ New Testnet: Singularity Finance
 
 ## BOT FEATURE
 - Multi Account 
+- Proxy Support
 - Support PK & SEED
 - Daily Bridge
 - Daily Wrap & Unwrap

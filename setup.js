@@ -62,6 +62,6 @@ const copyOperations = [
   }
   console.log(`\nSetup Complete`);
   console.log(
-    `Open and configure\n- accounts/accounts.js\n- config/config.js\n `
+    `Open and configure\n- accounts/accounts.js\n- config/config.js\n- config/proxy_list.js\n `
   );
 })();
