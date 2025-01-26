@@ -1,187 +1,166 @@
-# SINGULARITY TESTNET BOT
-Singularity Testnet Bot
+Вот перевод документации:
 
-## Table Of Contents
+---
+
+# SINGULARITY TESTNET BOT
+**Бот для тестовой сети Singularity**
+
+## Содержание
 - [SINGULARITY TESTNET BOT](#singularity-testnet-bot)
-  - [Table Of Contents](#table-of-contents)
-  - [Prerequisite](#prerequisite)
-  - [Join My Telegram Channel](#join-my-telegram-channel)
-  - [Singularity Finance Testnet](#singularity-finance-testnet)
-  - [BOT FEATURE](#bot-feature)
-  - [Setup \& Configure BOT](#setup--configure-bot)
+  - [Содержание](#содержание)
+  - [Предварительные требования](#предварительные-требования)
+  - [Присоединяйтесь к моему Telegram-каналу](#присоединяйтесь-к-моему-telegram-каналу)
+  - [Тестовая сеть Singularity Finance](#тестовая-сеть-singularity-finance)
+  - [Функционал бота](#функционал-бота)
+  - [Установка и настройка бота](#установка-и-настройка-бота)
     - [Linux](#linux)
     - [Windows](#windows)
-  - [Update Bot](#update-bot)
-  - [IMPORTANT NOTE (READ IT THIS IS NOT DECORATION)](#important-note-read-it-this-is-not-decoration)
-  - [CONTRIBUTE](#contribute)
-  - [SUPPORT](#support)
+  - [Обновление бота](#обновление-бота)
+  - [ВАЖНОЕ ПРИМЕЧАНИЕ (ЭТО НЕ ПРОСТО ДЕКОРАЦИЯ)](#важное-примечание-это-не-просто-декорация)
+  - [Как внести вклад](#как-внести-вклад)
+  - [Поддержка](#поддержка)
 
-## Prerequisite
+---
+
+## Предварительные требования
 - Git
-- Node JS (v22)
+- Node.js (версия 22)
 
-## Join My Telegram Channel
-```
-                                                          
-                      ...                                 
-                     .;:.                                 
-                    .;ol,.                                
-                   .;ooc:'                                
-            ..    .;ooccc:'.    ..                        
-          .',....'cdxlccccc;.....,'.                      
-         .;;..'';clolccccccc:,''..;;.                     
-        ':c'..':cccccccccccccc;...'c:.                    
-       ':cc,.'ccccccccccccccccc:..;cc:'                   
-    ...:cc;.':cccccccccccccccccc:..:cc:...                
-   .;';cc;.':;;:cccccccccccccc:;;;'.;cc,,;.               
-  .cc':c:.',.....;cccccccccc;.....,..:c:'c:               
-  ,x:'cc;.,'     .':cccccc:'.     ',.;cc':x'              
-  lO,'cc;.;,       .;cccc:.       ,;.;cc';0l              
- .o0;.;c;.,:'......',''''''......':,.;c;.:0l.             
- .lxl,.;,..;c::::;:,.    .,:;::::c;..,;.,oxl.             
- .lkxOl..  ..'..;::'..''..'::;..'..  ..c0xkl.             
-  .cKMx.        .;c:;:cc:;:c:.        .xMKc.              
-    ;KX:         ;o::l:;cc;o:.        ;KK;                
-     :KK:.       ,d,cd,'ol'o:       .:0K:                 
-      ;0NOl:;:loo;. ... .. .;ldlc::lkN0:                  
-       .lONNNKOx0Xd,;;'.,:,lKKkk0XNN0o.                   
-         .','.. .lX0doooodOXd.  .','.                     
-                 .,okkddxkd;.                             
-                    'oxxd;.                               
-   ........................................                              
-   .OWo  xNd lox  xxl Ald   xoc dakkkkkxsx.              
-   .OWo  o0W cXW  dM0 MMN   lNK laddKMNkso.               
-   .kMKoxsNN oWX  dW0 MMMWO lWK    axM0   .                
-   .OMWXNaMX dM0  kM0 MMKxNXKW0    axMk   .                 
-   .OMk  dWK oWX XWdx Mxx  XMMO    akMx   .                 
-   'OWo  dM0 'kNNXNNd DMD   OWk    aoWd   .                 
-   ........................................
+---
 
-```           
-                                              
-                                              
+## Присоединяйтесь к моему Telegram-каналу
 
-Anyway i create new telegram channel just for sharing bot or airdrop, join here
+Создан новый Telegram-канал для обмена ботами или участия в airdrop. Присоединяйтесь:
 [**https://t.me/skeldrophunt**](https://t.me/skeldrophunt).
 
-## Singularity Finance Testnet
-New Testnet: Singularity Finance
+---
 
-➡️ Claim Faucet :  https://faucet-testnet.singularityfinance.ai/
+## Тестовая сеть Singularity Finance
 
-➡️ Connect New Wallet : https://singularityfinance.ai/testnet
+- **Новая тестовая сеть: Singularity Finance**
+  - **Получить тестовые токены SFI**: [https://faucet-testnet.singularityfinance.ai/](https://faucet-testnet.singularityfinance.ai/)
+  - **Подключить новый кошелек**: [https://singularityfinance.ai/testnet](https://singularityfinance.ai/testnet)
+  - **Завершить задания Zealy**: [https://zealy.io/cw/singularityfinance/invite/RIfAE_1sqVY_2x-Z-Dtd5](https://zealy.io/cw/singularityfinance/invite/RIfAE_1sqVY_2x-Z-Dtd5)
 
-➡️ Complete Zeally : https://zealy.io/cw/singularityfinance/invite/RIfAE_1sqVY_2x-Z-Dtd5
+  ### Ежедневные задачи:
+  - Получение тестовых токенов SFI.
+  - Обмен токенов SFI → wSFI или другие.
+  - Стейкинг 50%.
+  - Получение награды.
+  - Мост SFI.
+  - Выполнение ежедневных задач в цепочке и в социальных сетях.
 
-- Get Test SFI Tokens
-- Swap SFI > wSFI or Other
-- Stake 50%
-- Claim Reward
-- Bridge SFI
-- Complete Daily Onchain Task & Social Media Task 
-- Done
+---
 
-**LFG**
+## Функционал бота
+- Поддержка нескольких аккаунтов.
+- Поддержка прокси.
+- Поддержка приватных ключей и seed-фраз.
+- Ежедневный мост.
+- Ежедневный обмен (wrap/unwrap).
+- Ежедневный стейкинг/анстейкинг.
+- Ежедневное получение наград за стейкинг.
 
-## BOT FEATURE
-- Multi Account 
-- Proxy Support
-- Support PK & SEED
-- Daily Bridge
-- Daily Wrap & Unwrap
-- Daily Stake & Unstake
-- Daily Claim Staking Reward
+---
 
-
-## Setup & Configure BOT
+## Установка и настройка бота
 
 ### Linux
-1. Clone project repo
-   ```
+1. Клонируйте репозиторий:
+   ```bash
    git clone https://github.com/Widiskel/singularity-testnet-bot.git && cd singularity-testnet-bot
    ```
-2. Run
-   ```
+2. Установите зависимости:
+   ```bash
    npm install && npm run setup
    ```
-3. Configure your accounts
-   ```
+3. Настройте аккаунты:
+   ```bash
    nano accounts/accounts.js
    ```
-4. Configure the bot config
-    ```
+4. Настройте конфигурацию бота:
+   ```bash
    nano config/config.js
-    ```
-5. To run Auto TX
    ```
+5. Запустите бота:
+   ```bash
    npm run start
    ```
-   
+
+---
+
 ### Windows
-1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repo
-   ```
+1. Откройте `Командную строку` или `PowerShell`.
+2. Клонируйте репозиторий:
+   ```bash
    git clone https://github.com/Widiskel/singularity-testnet-bot.git
    ```
-   and cd to project dir
-   ```
+3. Перейдите в директорию проекта:
+   ```bash
    cd singularity-testnet-bot
    ```
-3. Run 
-   ```
+4. Установите зависимости:
+   ```bash
    npm install && npm run setup
    ```
-5. Navigate to `singularity-testnet-bot` directory. 
-6. Navigate to `accounts` directory.
-7. Now open `acccounts.js` and setup your accounts. 
-8. Now Back to `singularity-testnet-bot` directory and Navigate to `config` directory and adjust the `config.js` as needed.
-9.  Back to `singularity-testnet-bot` directory.
-10. To start the app open your `Command Prompt` or `Power Shell`
-11. To run auto Tx Bot
-    ```
-    npm run start
-    ```
-
-## Update Bot
-
-To update bot follow this step :
-1. run
+5. Настройте аккаунты:
+   - Откройте файл `accounts/accounts.js` и добавьте данные ваших аккаунтов.
+6. Настройте конфигурацию:
+   - Откройте файл `config/config.js` и внесите необходимые изменения.
+7. Запустите бота:
+   ```bash
+   npm run start
    ```
+
+---
+
+## Обновление бота
+Чтобы обновить бота:
+1. Выполните:
+   ```bash
    git pull
    ```
-   or
-   ```
+   или:
+   ```bash
    git pull --rebase
    ```
-   if error run
-   ```
+   Если возникла ошибка:
+   ```bash
    git stash && git pull
    ```
-2. run
-   ```
+2. Обновите зависимости:
+   ```bash
    npm update
    ```
-3. start the bot
-4. if any eror happen check `log/app.log`
+3. Перезапустите бота.
+4. Если возникнут ошибки, проверьте файл логов:
+   ```
+   log/app.log
+   ```
 
+---
 
-## IMPORTANT NOTE (READ IT THIS IS NOT DECORATION)
-DWYOR & Always use a new wallet when running the bot, I am not responsible for any loss of assets.
+## ВАЖНОЕ ПРИМЕЧАНИЕ (ЭТО НЕ ПРОСТО ДЕКОРАЦИЯ)
+- **DWYOR**: Делайте всё на свой страх и риск.
+- Всегда используйте **новый кошелек** при работе с ботом. Автор не несет ответственности за потерю активов.
+- Если возникнет ошибка SQL, удалите файл `database.db`.
+- Ошибки во время транзакций будут автоматически повторяться до успешного выполнения.
+- У панели управления Singularity большая задержка, просто запустите и оставьте бот работать.
 
-If any error regarding SQL, try to delete `database.db` first
+---
 
-Any eror during tx will be retried until it success
+## Как внести вклад
+Чувствуйте себя свободно форкать и добавлять новые функции. Спасибо!
 
-Singularity Dashboard is have a huge delay, don't worry just run and forget it.
+---
 
-## CONTRIBUTE
+## Поддержка
+Хотите поддержать разработчика для создания новых ботов?
+- **Поставьте звезду этому репозиторию!**
+- Или отправьте донат:
+  - EVM: `0xB1CacA160f950Cf3aAD2e4Fcd4f40dBa3CB779eb`
+  - SOLANA: `SDajF7UECdY1jRjJXR9HGuyFHnwqhzAwXLsE3xuDtB5`
 
-Feel free to fork and contribute adding more feature thanks.
+---
 
-## SUPPORT
-
-want to support me for creating another bot ?
-**star** my repo or buy me a coffee on
-
-EVM : `0x1f0ea6e0b3590e1ab6c12ea0a24d3d0d9bf7707d`
-SOLANA : `3tE3Hs7P2wuRyVxyMD7JSf8JTAmEekdNsQWqAnayE1CN`
+Если вам нужно больше помощи с настройкой, дайте знать! 😊
