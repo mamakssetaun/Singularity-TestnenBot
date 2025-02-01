@@ -87,10 +87,13 @@ New Testnet: Singularity Finance
 - Multi Account 
 - Proxy Support
 - Support PK & SEED
-- Daily Bridge
-- Daily Wrap & Unwrap
+- Daily Bridge (Disabled)
+- Daily Wrap & Unwrap (Disable)
 - Daily Stake & Unstake
 - Daily Claim Staking Reward
+- Daily Swap
+- Daily Add Liquidity
+- Daily Travel Rule (Later)
 
 
 ## Setup & Configure BOT
@@ -170,9 +173,9 @@ DWYOR & Always use a new wallet when running the bot, I am not responsible for a
 
 If any error regarding SQL, try to delete `database.db` first
 
-Any eror during tx will be retried until it success
+Any eror during tx will be retried until it success, so ignore it
 
-Singularity Dashboard is have a huge delay, don't worry just run and forget it.
+Singularity Dashboard is have a huge delay, also for the rpc and contract so don't worry just run and forget it.
 
 ## CONTRIBUTE
 
