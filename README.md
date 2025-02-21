@@ -68,7 +68,7 @@
 ### Linux
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Widiskel/singularity-testnet-bot.git && cd singularity-testnet-bot
+  git clone https://github.com/Widiskel/singularity-testnet-bot.git && cd singularity-testnet-bot
    ```
 2. Установите зависимости:
    ```bash
