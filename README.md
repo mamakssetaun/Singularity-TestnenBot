@@ -101,7 +101,7 @@ New Testnet: Singularity Finance
 ### Linux
 1. Clone project repo
    ```
-   git clone https://github.com/Widiskel/singularity-testnet-bot.git && cd singularity-testnet-bot
+   git clone https://github.com/Widiskel/singularity-testnet-bot.git && cd Singularity-TestnenBot
    ```
 2. Run
    ```
